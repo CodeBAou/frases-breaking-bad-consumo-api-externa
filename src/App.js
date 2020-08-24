@@ -18,6 +18,14 @@ function App() {
           </div>
 
       </header>
+
+      <div className="api_content">
+            <div className="frase_content">
+
+            </div>
+            <button className="btn">Frase</button>
+      </div>
+
     </div>
   );
 }
