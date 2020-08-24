@@ -80,24 +80,39 @@
 
 .frase_content{
 
-  background: rgba(255, 255, 255,0.6);
+  background: rgba(255, 255, 255,0.8);
   width:50%;
   height:35vh;
   margin:0 auto;
   margin-top:1%;
   border-radius:25px;
   text-align:center;
+  font-size:20px;
+  
 }
 
 .btn{
 
   color:white;
-  background:rgba(0, 3, 0,0.4);
+  background:rgba(0, 3, 0,0.5);
   border:2px solid white;
   border-radius:10px;
   padding:8px;
   width:50%;
   margin-top:0.5%;
+}
+
+.author{
+  color:rgb(0, 19, 0);
+}
+
+.quote{
+  color:rgb(29, 87, 29);
+}
+
+.api{
+  color:red;
+  font-size:12px;
 }
 
 @media(max-width:1200px)
