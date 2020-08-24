@@ -22,7 +22,7 @@
   text-align:center;
   color:white;
   float:left;
-  margin-left:34%;
+  margin-left:38%;
 }
 
 .BrBasup_content{
@@ -65,4 +65,41 @@
 .ajuste_frase2{
 
   margin-left:28%;
+}
+
+@media(max-width:1200px)
+{
+  .titulo_content{
+    margin-left:35%;
+  }
+}
+
+@media(max-width:992px)
+{
+  .titulo_content{
+    margin-left:30%;
+  }
+}
+
+@media(max-width:768px)
+{
+  .titulo_content{
+    margin-left:20%;
+    
+  }
+}
+
+@media(max-width:520px){
+  .titulo_content{
+    margin-left:10%;
+    
+  }
+}
+
+@media(max-width:520px){
+  .titulo_content{
+    margin-left:0%;
+      
+    
+  }
 }
